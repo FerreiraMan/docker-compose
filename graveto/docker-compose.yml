@@ -16,6 +16,8 @@ services:
   postgres:
     image: postgres:16-alpine
     container_name: graveto_db
+    ports:
+      - "5432:5432"    
     volumes:
       - ./graveto-db-data:/var/lib/postgresql/data
     environment:
