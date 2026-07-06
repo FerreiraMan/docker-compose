@@ -1,3 +1,5 @@
+name: graveto
+
 services:
   graveto:
     image: ghcr.io/ferreiraman/graveto:latest

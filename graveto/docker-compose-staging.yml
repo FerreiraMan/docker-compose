@@ -1,3 +1,5 @@
+name: graveto_staging
+
 services:
   graveto:
     image: ghcr.io/ferreiraman/graveto:latest
